@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Edit",
+      "Write",
+      "Bash(ls *)",
+      "Bash(mkdir *)",
+      "Bash(git *)",
+      "Bash(gh *)",
+      "Bash(export PATH* && gh *)",
+      "Bash(pnpm run lint)",
+      "Bash(pnpm run build)",
+      "Bash(pnpm run dev)"
+    ],
+    "deny": [
+      "Bash(git push --force *)",
+      "Bash(git reset --hard *)",
+      "Bash(git clean -f *)"
+    ]
+  }
+}
